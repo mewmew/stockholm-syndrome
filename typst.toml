@@ -1,12 +1,12 @@
 [package]
-name = "poster-syndrome"
+name = "stockholm-syndrome"
 version = "0.1.0"
-entrypoint = "poster-syndrome.typ"
-authors = ["baptiste <https://github.com/baptiste>"]
+entrypoint = "stockholm-syndrome.typ"
+authors = ["Robin Eklind"]
 license = "MPL-2.0"
 description = "A poster template with custom frame placement."
 categories = ["office"]
-repository = "https://github.com/baptiste/poster-syndrome"
+repository = "https://github.com/mewmew/stockholm-syndrome"
 exclude = [
     "examples",
     "tests",

@@ -1,7 +1,7 @@
 
 #import "defaults.typ": * // imports default theme and layout
 
-#let poster-syndrome(
+#let stockholm-syndrome(
   title: none, 
   subtitle: none,
   authors: none,
@@ -144,7 +144,7 @@
 })
 
 
-#let poster-syndrome-setup(
+#let stockholm-syndrome-setup(
   theme: _default-theme,
   frames: _default-frames,
   container: _default-container,
@@ -170,7 +170,7 @@
   }
 
   return (
-    poster: poster-syndrome.with(
+    poster: stockholm-syndrome.with(
       styles: styles,
       palette: theme.palette,
       frame: frame,

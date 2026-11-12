@@ -1,9 +1,9 @@
-# poster-syndrome
+# stockholm-syndrome
 
 A Typst template for posters with custom frame placement. To get started:
 
 ```
-typst init @preview/poster-syndrome:0.1.0
+typst init @preview/stockholm-syndrome:0.1.0
 ```
 
 And edit the `main.typ` example. 

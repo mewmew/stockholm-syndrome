@@ -1,4 +1,4 @@
-#import "@preview/poster-syndrome:0.1.0": *
+#import "@preview/stockholm-syndrome:0.1.0": *
 #import "@preview/codetastic:0.2.2": qrcode
 
 #let custom-theme = theme-helper(
@@ -41,7 +41,7 @@
 // )
 
 // initialise with given frames
-#let (poster, frame) = poster-syndrome-setup(theme: custom-theme, frames: frames)
+#let (poster, frame) = stockholm-syndrome-setup(theme: custom-theme, frames: frames)
 
 #let page-background = {
   let padding = 1cm

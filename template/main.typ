@@ -1,11 +1,11 @@
-#import "@preview/poster-syndrome:0.1.0": *
+#import "@preview/stockholm-syndrome:0.1.0": *
 #import "@preview/codetastic:0.2.2": qrcode
 
 #let debug-boxes = true
 #let debug-boxes = false
 
 // initialise with defaults
-#let (poster, frame) = poster-syndrome-setup()
+#let (poster, frame) = stockholm-syndrome-setup()
 
 #let qr = block(qrcode(
     "https://en.m.wikipedia.org/wiki/The_Classic_of_Tea",
