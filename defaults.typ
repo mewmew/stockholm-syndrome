@@ -189,8 +189,8 @@
 ) = {
   let padding = 1cm
   let col1 = theme.palette.melon.darken(1%)
-  let col2 = theme.palette.contrast.lighten(60%)
-  let col3 = theme.palette.contrast.lighten(98%)
+  let col2 = theme.palette.contrast
+  let col3 = white
   let col4 = theme.palette.melon
 
   // right page
@@ -238,9 +238,9 @@
     dy: frames.details.y * 1mm - padding,
     rect(
       width: frames.details.width * 1mm + padding,
-      stroke: (left: (thickness: 2mm, paint: col2.transparentize(40%))),
+      stroke: (left: (thickness: 3mm, paint: col2.transparentize(40%))),
       height: frames.details.height * 1mm + 2 * padding,
-      fill: col2.transparentize(100%),
+      fill: col2.transparentize(97%),
       radius: 0mm,
     ),
   )
