@@ -54,16 +54,16 @@
 
   set image(width: 100%)
 
-  show "•": text.with(weight: "extralight", fill: palette.highlight)
-  show "·": text.with(weight: "extralight", fill: palette.highlight)
+  show "•": text.with(weight: "extralight", fill: palette.highlight.darken(40%))
+  show "·": text.with(weight: "extralight", fill: palette.highlight.darken(40%))
 
   set list(marker: text([•], baseline: 0pt))
-  set enum(numbering: n => text(fill: palette.highlight.darken(20%))[#n ·])
+  set enum(numbering: n => text(fill: palette.highlight.darken(40%))[#n ·])
 
   show bibliography: it => {
   show link: set text(fill: palette.contrast.darken(40%))
 
-  set enum(numbering: n => text(fill: palette.highlight.darken(20%))[#n ·])
+  set enum(numbering: n => text(fill: palette.highlight.darken(40%))[#n ·])
   it
   }
 
