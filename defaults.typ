@@ -25,12 +25,12 @@
 
 #let _page-foreground(bleed: 8.5pt, trim: 29.5pt, frames: none) = {
   // outer
-  crop-marks(
-    distance: trim - bleed,
-    offset: 0pt,
-    length: trim - bleed - 0pt,
-    stroke: .5pt + black,
-  )
+  //crop-marks(
+  //  distance: trim - bleed,
+  //  offset: 0pt,
+  //  length: trim - bleed - 0pt,
+  //  stroke: .5pt + black,
+  //)
   if frames != none {
     // debug boxes
 
@@ -44,8 +44,8 @@
   }
 
   // inner with outline
-  crop-marks(distance: trim, length: trim + 2pt, stroke: 2pt + white)
-  crop-marks(distance: trim, length: trim + 2pt, stroke: 0.5pt + black)
+  //crop-marks(distance: trim, length: trim + 2pt, stroke: 2pt + white)
+  //crop-marks(distance: trim, length: trim + 2pt, stroke: 0.5pt + black)
 }
 
 
